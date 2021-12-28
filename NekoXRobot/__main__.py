@@ -52,35 +52,35 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/5fe62f4027eea179e9474.jpg) 」────
+────「 [{}](https://telegra.ph/file/d714002a5f9c6086bfa31.jpg.) 」────
 *やあ! {},*
-*I am a Anime themed advance group management bot with a lots of New And Powerful Features.*
+*I am TSUKASA  Anime themed advance group management bot with a lots of New And Powerful Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ✧ *Uptime:* `{}`
 ✧ `{}` *users, across* `{}` *chats.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
+➖➖➖
 ➢ Try The Help Buttons Below To Know My Abilities ✘
 """
 
 buttons = [
     [
                         InlineKeyboardButton(
-                            text="Add Me to your groups🎉",
+                            text="Add TSUKASA  to your groups🎉",
                             url="t.me/NekoXRobot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(text="Help🔐", callback_data="help_back"),
-                       InlineKeyboardButton(text="Bot Support🎊", url="https://t.me/NekoXsupport"),
-                       InlineKeyboardButton(text="Logs🔔", url="t.me/Rental_Girlfriends_Logs"),
+                       InlineKeyboardButton(text="Bot Support🎊", url="https://t.me/infernipe_X_support"),
+                       InlineKeyboardButton(text="Logs🔔", url="https://t.me/logs_of_infernipe"),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="Support🚑",
-                             url=f"https://t.me/Black_Knights_Union_Support"),
+                             url=f"https://t.me/sctbotssupport"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url="https://t.me/Black_Knights_Union"),
-                       InlineKeyboardButton(text="Network📊", url="https://t.me/Yuki_Network")
+                             url="https://t.me/sctbots"),
+                       InlineKeyboardButton(text="Network📊", url="https://t.me/sct_x_network")
                      ], 
     ]
 
@@ -94,16 +94,16 @@ I Use My Powers To Help Admins To Manage Their Groups!
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
-For all command use /* [or](https://telegra.ph/file/2866d7d3378cdad7b43ff.jpg) *!* 
+For all command use /* [or](https://telegra.ph/file/b76b24f9fed39c43d2602.jpg) *!* 
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
-GROUP_HELP_IMG = "https://telegra.ph/file/3bf1c58be585793e354ca.jpg"
-NEKO_IMG = "https://telegra.ph/file/6c6de4d3cc229b71a66cf.mp4"
+GROUP_HELP_IMG = "https://telegra.ph/file/ee8b382b46ded1b0089ff.jpg"
+Tusukasa_IMG = "https://telegra.ph/file/df72faf60153a67e2bd61.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Click here to donate in [Telegram](https://t.me/Horimaya)"""
+Click here to donate in [Telegram](https://t.me/harshahero)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
